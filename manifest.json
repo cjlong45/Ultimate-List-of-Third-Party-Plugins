@@ -1,0 +1,471 @@
+[
+    {
+        "guid": "a84a949d-4b73-4099-aacb-8341b4da17ba",
+        "name": "Jellyscrub",
+        "description": "Smooth mouse-over video scrubbing previews. Generates trickplay thumbnail previews for your media files, allowing for bufferless thumbnail previews while scrubbing.",
+        "overview": "Mouse-over video scrubbing previews",
+        "owner": "nicknsy",
+        "category": "General",
+        "imageUrl": "https://raw.githubusercontent.com/nicknsy/jellyscrub/main/images/logo.png",
+        "versions": [
+            {
+                "version": "2.1.0.0",
+                "changelog": "Support Jellyfin 10.10, allow plugin config to be edited on conversion page",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/nicknsy/jellyscrub/releases/download/2.1.0.0/jellyscrub_2.1.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-10-01T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "9cbaab08-2b5e-4f20-8c72-ab48c06ac196",
+        "name": "Merge Versions",
+        "description": "Automatically groups every repeated movie into a single entry with multiple versions. Perfect for managing different quality releases of the same movie (4K, 1080p, etc).",
+        "overview": "Automatically merge repeated movies",
+        "owner": "danieladov",
+        "category": "General",
+        "versions": [
+            {
+                "version": "10.11.0.1",
+                "changelog": "Upgrade to Jellyfin 10.11",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-mergeversions/releases/download/10.11.0.1/mergeversions_10.11.0.1.zip",
+                "checksum": "",
+                "timestamp": "2025-10-20T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "0417364b-5a93-4ad0-a1f0-b87569a7cf1c",
+        "name": "Theme Songs",
+        "description": "Automatically downloads theme songs for your TV show library from YouTube and other sources. Adds theme music to your viewing experience.",
+        "overview": "Downloads TV Show Theme Songs",
+        "owner": "danieladov",
+        "category": "General",
+        "versions": [
+            {
+                "version": "10.9.0.0",
+                "changelog": "Updated for Jellyfin 10.9",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-themesongs/releases/download/10.9.0.0/themesongs_10.9.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-05-24T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "c9efc966-81ef-48c6-975a-589327559c18",
+        "name": "Playback Reporting",
+        "description": "Collects and displays playback statistics. Track what your users are watching with detailed graphs and reports. Keeps information for as long as you want or can automatically cull older data.",
+        "overview": "Playback Statistics and Reporting",
+        "owner": "jellyfin",
+        "category": "General",
+        "versions": [
+            {
+                "version": "16.0.0.0",
+                "changelog": "Require admin privileges to access API, fix database connection disposal",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/jellyfin/jellyfin-plugin-playbackreporting/releases/download/v16/playback-reporting_16.0.0.0.zip",
+                "checksum": "",
+                "timestamp": "2025-04-13T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "8edc5310-de5e-4e4f-9479-e19173437bda",
+        "name": "Ani-Sync",
+        "description": "Synchronize and scrobble your Jellyfin Anime watch progress to popular anime tracking services including MyAnimeList, AniList, Kitsu, and Simkl. Automatically updates your watch status and progress.",
+        "overview": "Anime watch progress sync to MAL, AniList, Kitsu",
+        "owner": "vosmiic",
+        "category": "General",
+        "versions": [
+            {
+                "version": "3.1.0.0",
+                "changelog": "Bug fixes and improvements",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/vosmiic/jellyfin-ani-sync/releases/download/3.1.0/ani-sync_3.1.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-08-15T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "4b9ed42e-5185-44b7-9ea7-d5c5ce8562c6",
+        "name": "SSO Authentication",
+        "description": "Allows users to sign in through an SSO provider such as Google, Microsoft, Facebook, or your own custom provider. Enables one-click signin and simplifies user management for administrators.",
+        "overview": "Single Sign-On authentication",
+        "owner": "9p4",
+        "category": "Authentication",
+        "versions": [
+            {
+                "version": "3.5.3.3",
+                "changelog": "Bug fixes and stability improvements",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v3.5.3.3/sso-authentication_3.5.3.3.zip",
+                "checksum": "",
+                "timestamp": "2024-06-10T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "e711a52c-efb4-4144-974a-c2d8e0e6a7c8",
+        "name": "Shokofin",
+        "description": "Integrate your Shoko database with Jellyfin for comprehensive anime library management. Provides advanced metadata, episode grouping, and anime-specific features powered by AniDB and other sources.",
+        "overview": "Shoko database integration for anime",
+        "owner": "ShokoAnime",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "3.2.1.0",
+                "changelog": "Stability improvements and bug fixes",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v3.2.1/shokofin_3.2.1.0.zip",
+                "checksum": "",
+                "timestamp": "2024-09-01T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "f5c99cd2-b2db-4b3e-9f5a-7c8d9e0f1a2b",
+        "name": "Kinopoisk Metadata",
+        "description": "Fetches comprehensive metadata from Kinopoisk.ru, the most popular Russian movie and TV database. Provides ratings, descriptions, cast, crew, trailers, and other metadata in Russian language.",
+        "overview": "Russian metadata from Kinopoisk.ru",
+        "owner": "LinFor",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.7.0.0",
+                "changelog": "Updated API integration",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/LinFor/jellyfin-plugin-kinopoisk/releases/download/v1.7.0/kinopoisk_1.7.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-07-20T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "d8c3a4f1-2b5e-4c6d-9e7f-8a0b1c2d3e4f",
+        "name": "Themerr",
+        "description": "Automatically downloads and adds theme songs to your movies and TV shows from ThemerrDB. Enhances your viewing experience with authentic theme music that plays when browsing your library.",
+        "overview": "Theme songs from ThemerrDB",
+        "owner": "LizardByte",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.3.0.0",
+                "changelog": "Performance improvements",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v1.3.0/themerr_1.3.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-08-05T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "name": "YouTube Metadata",
+        "description": "Retrieves comprehensive metadata for YouTube content in your library. Uses yt-dlp info.json files or the YouTube API to fetch titles, descriptions, thumbnails, upload dates, and channel information.",
+        "overview": "YouTube content metadata provider",
+        "owner": "ankenyr",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "2.4.0.0",
+                "changelog": "Improved metadata fetching",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/ankenyr/jellyfin-youtube-metadata-plugin/releases/download/v2.4.0/youtube-metadata_2.4.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-07-10T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+        "name": "TubeArchivist Metadata",
+        "description": "Integrates your TubeArchivist library with Jellyfin for organized YouTube content. Provides metadata and library organization for archived YouTube videos managed by TubeArchivist.",
+        "overview": "TubeArchivist integration",
+        "owner": "tubearchivist",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "0.4.0.0",
+                "changelog": "Updated for compatibility",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v0.4.0/tubearchivist_0.4.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-06-25T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+        "name": "MyAnimeList Metadata",
+        "description": "Adds MyAnimeList as a metadata provider for your anime library. Uses Jikan API and MyAnimeList to fetch comprehensive anime information including ratings, descriptions, and relationships.",
+        "overview": "MyAnimeList metadata provider",
+        "owner": "ryandash",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.2.0.0",
+                "changelog": "API improvements",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v1.2.0/myanimelist_1.2.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-05-30T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "d4e5f6a7-b8c9-0123-def1-234567890123",
+        "name": "Jellyfin.Xtream",
+        "description": "Integrate content from Xtream-compatible IPTV APIs into your Jellyfin instance. Supports live TV streams, VOD content, and TV series from Xtream providers with EPG support.",
+        "overview": "Xtream API integration for IPTV",
+        "owner": "Kevinjil",
+        "category": "Live TV",
+        "versions": [
+            {
+                "version": "2.0.0.0",
+                "changelog": "Major update with improved stability",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/Kevinjil/Jellyfin.Xtream/releases/download/v2.0.0/jellyfin-xtream_2.0.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-08-20T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "e5f6a7b8-c9d0-1234-ef12-345678901234",
+        "name": "AudioMuse AI",
+        "description": "Enhance Jellyfin with sonic analysis and smart song clustering. Replaces InstantMix with AI-powered recommendations based on audio fingerprinting and similarity analysis for better music discovery.",
+        "overview": "AI-powered music recommendations",
+        "owner": "neptunehub",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.1.0.0",
+                "changelog": "Improved AI algorithms",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/neptunehub/audiomuse-ai-plugin/releases/download/v1.1.0/audiomuse-ai_1.1.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-09-10T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "f6a7b8c9-d0e1-2345-f123-456789012345",
+        "name": "Skin Manager",
+        "description": "Download and manage the most popular Jellyfin skins and themes. Easily switch between different UI themes and customize the look and feel of your Jellyfin interface.",
+        "overview": "Download and manage Jellyfin skins",
+        "owner": "danieladov",
+        "category": "General",
+        "versions": [
+            {
+                "version": "10.9.0.0",
+                "changelog": "Updated for Jellyfin 10.9",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-skin-manager/releases/download/10.9.0.0/skinmanager_10.9.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-05-24T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "a7b8c9d0-e1f2-3456-1234-567890123456",
+        "name": "MyShows Scrobbler",
+        "description": "Scrobble your watched TV shows with MyShows.me, a popular Russian TV tracking service. Automatically syncs your viewing progress and watched status to your MyShows.me account.",
+        "overview": "MyShows.me scrobbling",
+        "owner": "shemanaev",
+        "category": "General",
+        "versions": [
+            {
+                "version": "5.1.0.0",
+                "changelog": "Update for 10.9 compatibility",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-myshows/releases/download/v5.1.0.0/myshows_5.1.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-05-13T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "b8c9d0e1-f2a3-4567-2345-678901234567",
+        "name": "Enhanced Webhooks",
+        "description": "Advanced webhook plugin supporting multiple webhook types including Plex-compatible format. Send detailed notifications about Jellyfin events to external services and automation tools.",
+        "overview": "Advanced webhook notifications",
+        "owner": "shemanaev",
+        "category": "Notifications",
+        "versions": [
+            {
+                "version": "2.3.0.0",
+                "changelog": "Added more webhook templates",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v2.3.0/webhooks_2.3.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-06-18T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "c9d0e1f2-a3b4-5678-3456-789012345678",
+        "name": "Media Cleaner",
+        "description": "Automatically removes played media files after a specified time period. Perfect for managing disk space by cleaning up watched content automatically based on customizable rules.",
+        "overview": "Auto-delete watched media",
+        "owner": "shemanaev",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.5.0.0",
+                "changelog": "Bug fixes and improvements",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v1.5.0/media-cleaner_1.5.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-07-05T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "d0e1f2a3-b4c5-6789-4567-890123456789",
+        "name": "WizdomSubs Hebrew Subtitles",
+        "description": "Automatically downloads Hebrew subtitles from WizdomSubs for your media library. Provides high-quality Hebrew subtitle support with automatic matching to your content.",
+        "overview": "Hebrew subtitles from WizdomSubs",
+        "owner": "DeDuplicate",
+        "category": "Subtitles",
+        "versions": [
+            {
+                "version": "1.2.0.0",
+                "changelog": "Improved subtitle matching",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/DeDuplicate/Jellyfin_wizdomsubs_downloader/releases/download/v1.2.0/wizdomsubs_1.2.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-06-01T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "e1f2a3b4-c5d6-7890-5678-901234567890",
+        "name": "InfuseSync",
+        "description": "Synchronize playback status and watched history between Jellyfin and Infuse app. Seamlessly keep your viewing progress in sync across Jellyfin and Infuse on Apple devices.",
+        "overview": "Infuse app synchronization",
+        "owner": "Firecore",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.4.0.0",
+                "changelog": "Enhanced sync reliability",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://files.firecore.com/jellyfin/infusesync_1.4.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-08-12T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "f2a3b4c5-d6e7-8901-6789-012345678901",
+        "name": "Jellyfin Enhanced",
+        "description": "Adds keyboard shortcuts, advanced subtitle styling options, TMDB reviews integration, Jellyseerr search and request functionality, and numerous other UI/UX improvements to enhance your Jellyfin experience.",
+        "overview": "UI enhancements and keyboard shortcuts",
+        "owner": "n00bcodr",
+        "category": "General",
+        "versions": [
+            {
+                "version": "2.1.0.0",
+                "changelog": "Added new keyboard shortcuts and features",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/n00bcodr/jellyfin-enhanced/releases/download/v2.1.0/jellyfin-enhanced_2.1.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-09-15T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "a3b4c5d6-e7f8-9012-7890-123456789012",
+        "name": "Auto Collections",
+        "description": "Automatically creates and maintains dynamic collections based on flexible criteria. Set up rules to automatically organize your library into collections based on genres, actors, directors, studios, and more.",
+        "overview": "Dynamic automatic collections",
+        "owner": "KeksBombe",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.6.0.0",
+                "changelog": "Added new collection criteria",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/v1.6.0/auto-collections_1.6.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-07-28T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "b4c5d6e7-f8a9-0123-8901-234567890123",
+        "name": "Letterboxd Sync",
+        "description": "Automatically synchronizes your watched movie history with Letterboxd. Keep your Letterboxd diary and watched films up to date based on your Jellyfin viewing activity.",
+        "overview": "Letterboxd watch history sync",
+        "owner": "danielveigasilva",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.3.0.0",
+                "changelog": "Improved sync accuracy",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync/releases/download/v1.3.0/letterboxd-sync_1.3.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-08-08T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "c5d6e7f8-a9b0-1234-9012-345678901234",
+        "name": "Meilisearch",
+        "description": "Dramatically improves search speed and accuracy in Jellyfin using Meilisearch engine. Provides lightning-fast search results with typo tolerance and advanced filtering capabilities.",
+        "overview": "Enhanced search with Meilisearch",
+        "owner": "arnesacnussem",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.4.0.0",
+                "changelog": "Performance optimizations",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/arnesacnussem/jellyfin-plugin-meilisearch/releases/download/v1.4.0/meilisearch_1.4.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-09-05T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "d6e7f8a9-b0c1-2345-0123-456789012345",
+        "name": "ProviderStuff",
+        "description": "Automates tagging of library items with streaming provider information and creates collections per provider. Easily organize your content by which streaming service it's from (Netflix, Disney+, etc).",
+        "overview": "Streaming provider tags and collections",
+        "owner": "kamilkosek",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.5.0.0",
+                "changelog": "Added more streaming providers",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/kamilkosek/jellyfin-plugin-provider-stuff/releases/download/v1.5.0/provider-stuff_1.5.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-08-22T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "e7f8a9b0-c1d2-3456-1234-567890123456",
+        "name": "Custom Logo",
+        "description": "Replace the default Jellyfin logo with your own custom image. Personalize your Jellyfin instance by uploading a custom logo that appears in the header and login screen.",
+        "overview": "Upload custom Jellyfin logo",
+        "owner": "bvolvy",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.2.0.0",
+                "changelog": "Support for additional image formats",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/bvolvy/CustomLogoPlugin/releases/download/v1.2.0/custom-logo_1.2.0.0.zip",
+                "checksum": "",
+                "timestamp": "2024-06-15T00:00:00Z"
+            }
+        ]
+    }
+]
