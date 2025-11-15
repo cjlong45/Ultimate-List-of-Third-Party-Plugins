@@ -1,3 +1,6 @@
+json
+
+
 [
     {
         "guid": "a84a949d-4b73-4099-aacb-8341b4da17ba",
@@ -485,6 +488,43 @@
                 "timestamp": "2024-04-10T00:00:00Z"
             }
         ]
+    },
+    {
+        "guid": "1a2b3c4d-5e6f-7890-abcd-ef1234567890",
+        "name": "Gelato",
+        "description": "⚠️ EXPERIMENTAL - Stremio integration for Jellyfin. Replaces default search with Stremio-powered results and imports catalogs. Requires Jellyfin 10.11+ and AIOStreams setup. Stream content on-demand without local storage.",
+        "overview": "Stremio integration - on-demand streaming (REQUIRES 10.11+)",
+        "owner": "lostb1t",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.0.0.0",
+                "changelog": "Stremio catalog and search integration - REQUIRES Jellyfin 10.11+",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/lostb1t/Gelato/releases/latest/download/gelato.zip",
+                "checksum": "",
+                "timestamp": "2024-11-01T00:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "2b3c4d5e-6f7a-8901-bcde-f12345678901",
+        "name": "ProviderId Search (Stremio-Jellyfin Bridge)",
+        "description": "Jellyfin extension component for Stremio-Jellyfin Bridge. Adds search capability using IMDB identifiers. Required for Stremio addon to access Jellyfin library. Works with companion Docker container.",
+        "overview": "IMDB search for Stremio integration",
+        "owner": "akarazniewicz",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.0.0.0",
+                "changelog": "IMDB identifier search support for Stremio bridge",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/akarazniewicz/jellyfin-providersid-search-plugin/releases/latest/download/providerid-search.zip",
+                "checksum": "",
+                "timestamp": "2024-08-01T00:00:00Z"
+            }
+        ]
     }
 ]
+
 
