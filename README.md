@@ -7,11 +7,33 @@ A comprehensive, curated list of verified Jellyfin plugin repositories. Add thes
 
 ---
 
+## 🚀 Quick Start - Two Ways to Use This Repository
+
+### **Easy Mode: One-Click Repository**
+Add this single URL to Jellyfin and get instant access to 28 curated plugins:
+https://raw.githubusercontent.com/cjlong45/Ultimate-List-of-Third-Party-Plugins/main/manifest.json
+
+code
+
+
+
+**Steps:**
+1. Jellyfin Dashboard → Plugins → Repositories → **+** button
+2. Name: `Ultimate Plugin Collection`
+3. URL: `https://raw.githubusercontent.com/cjlong45/Ultimate-List-of-Third-Party-Plugins/main/manifest.json`
+4. Save → Go to Catalog → Browse 28 plugins!
+
+### **Advanced Mode: Individual Repositories**
+Browse the list below and add specific repositories you want for maximum control and always-updated plugins.
+
+---
+
 ## 📖 Table of Contents
 
 - [How to Add Repositories](#how-to-add-repositories)
 - [Official Repositories](#official-repositories)
 - [Third-Party Plugin Repositories](#third-party-plugin-repositories)
+- [Streaming & On-Demand Plugins](#streaming--on-demand-plugins)
 - [Individual Plugin Repositories](#individual-plugin-repositories)
 - [Manual Installation Plugins](#manual-installation-plugins)
 - [Repository Statistics](#repository-statistics)
@@ -495,12 +517,123 @@ code
 
 ---
 
+## 🌐 Streaming & On-Demand Plugins
+
+⚠️ **IMPORTANT LEGAL & TECHNICAL WARNINGS:**
+
+These plugins enable streaming content without local storage. **Please note:**
+
+- **Legal:** Only use with content you legally own or have rights to access
+- **Technical:** Requires advanced setup (Docker, external services, manual configuration)
+- **Stability:** Experimental plugins that may break with Jellyfin updates
+- **Support:** Not officially supported by Jellyfin team
+- **Privacy:** Consider using a VPN when streaming from public sources
+
+**Jellyfin is designed for locally-owned media. Use streaming plugins responsibly.**
+
+---
+
+### **Gelato** ⭐ (Stremio Integration - NEWEST!)
+https://raw.githubusercontent.com/lostb1t/Gelato/refs/heads/gh-pages/repository.json
+
+code
+
+
+- **GitHub:** https://github.com/lostb1t/Gelato
+- **What it does:** Replaces Jellyfin's default search with Stremio-powered results and can automatically import entire catalogs into your library through scheduled tasks — seamlessly injecting them into Jellyfin's database so they behave like native items[citation:1](#)
+- **Requirements:** Jellyfin 10.11+ and AIOStreams manifest[citation:3](#)
+- **Features:**
+  - Unified Search – Jellyfin search pulls results from Stremio addons
+  - Catalog Import – Import items from Stremio catalogs with scheduled tasks
+  - Real-time Streaming – Streams resolved on demand, play instantly
+  - Database Integration – Stremio items appear like native Jellyfin items
+  - Proxy Support – Streams proxied through Jellyfin
+- **⚠️ Advanced users only** - Requires tmdb addon enabled and one addon that provides streams (comet for example)[citation:4](#)
+- **Install:** Add repository URL to Jellyfin, configure AIOStreams connection
+
+---
+
+### **Stremio-Jellyfin Bridge**
+https://raw.githubusercontent.com/akarazniewicz/jellyfin-providersid-search-plugin/main/manifest.json
+
+code
+
+
+- **GitHub:** https://github.com/akarazniewicz/stremio-jellyfin
+- **What it does:** Addon consisting of two parts: Stremio Addon and supporting Jellyfin Extension adding Jellyfin search capability using IMDB identifiers. Both components are required[citation:5](#)
+- **Features:**
+  - Access Jellyfin library from Stremio app
+  - Search Jellyfin content by IMDB ID
+  - Docker-based Stremio addon
+  - Bidirectional integration
+- **Install:** 
+  - Add repository URL to Jellyfin
+  - Run Docker container for Stremio addon
+
+---
+
+### **ytdlp2STRM** (YouTube/Twitch Streaming)
+- **GitHub:** https://github.com/fe80Grau/ytdlp2STRM
+- **What it does:** Serves Youtube / Twitch / Crunchyroll videos without storage. Uses yt-dlp HTTP data through Flask and dynamic URLs to set STRM files[citation:6](#)
+- **Features:**
+  - Add /media/Youtube, /media/Twitch and /media/Crunchyroll as folders in Library[citation:7](#)
+  - Creates .strm files for on-demand streaming
+  - Season folders by year: YouTube and Twitch videos organized in year-based Season folders[citation:8](#)
+  - Supports playlists and channels
+  - Three streaming modes: direct (fast), bridge (remux on-fly), download (cached)
+  - NFO metadata generation
+  - Web interface for management
+- **Install:** Docker setup required (see GitHub)
+- **⚠️ Setup required:** Flask server, yt-dlp, Docker recommended
+
+---
+
+### **Streamarrfs** (Torrent Streaming)
+- **GitHub:** https://github.com/puttyman/streamarrfs
+- **What it does:** Allows you to stream movies or tv shows torrents via plex, jellyfin and etc. Powered by ⚡️webtorrent[citation:9](#)
+- **Features:**
+  - Mount and creates a virtual directory through fuse to simulate as if the files in the torrents are present locally. Whenever a read if requested to a file, Streamarrfs starts the torrent and stream through the portion of the file requested[citation:10](#)
+  - Finds torrents from your favorite torrent indexer (e.g. Jackett)[citation:11](#)
+  - Automatic torrent management
+  - Seekable video playback
+  - Automatically stop/pause torrents with no read activity[citation:13](#)
+- **⚠️ Experimental** - Docker only, x86_64 architecture
+- **Legal Warning:** Only stream content you own
+- **Install:** Docker with FUSE support required
+
+---
+
+### **Jellio+** (Jellyfin → Stremio)
+- **GitHub:** https://github.com/InfiniteAvenger/jellio-plus
+- **What it does:** Allows streaming media from your Jellyfin server through Stremio
+- **Features:**
+  - Stream Jellyfin library content in Stremio app
+  - Optional Jellyseerr integration
+  - Simple addon installation
+  - Search Jellyfin from Stremio interface
+- **Install:** Manual installation from GitHub releases
+
+---
+
+### **Trailerfin** (IMDb Trailer Streaming)
+- **GitHub:** https://github.com/dkanada/trailerfin
+- **What it does:** Automatically retrieves and creates STRM links to IMDb trailers
+- **Features:**
+  - Places trailer STRM files in backdrops folder
+  - View trailers on movie/show details page
+  - Streams without downloading
+  - On-demand playback via .strm files
+- **Install:** Manual installation from GitHub
+
+---
+
 ## 📦 Individual Plugin Repositories
 
-These plugins have their own standalone repositories:
+These plugins have their own standalone repositories (already listed in sections above):
 
-### **Intro Skipper (Standalone - Already Listed Above)**
-Already included in Third-Party section above ⬆️
+- **Intro Skipper** - See Third-Party section
+- **Jellyscrub** - See Third-Party section
+- **Gelato** - See Streaming section
 
 ---
 
@@ -655,14 +788,6 @@ These plugins don't have hosted manifest files and require manual installation v
 
 ---
 
-### **Gelato (Stremio Integration)**
-- **GitHub:** https://github.com/n1rvana-labs/gelato
-- **Purpose:** Replace search with Stremio-powered results, auto-import catalogs
-- **Install:** Manual installation from releases
-- ⚠️ **Advanced users only**
-
----
-
 ### **Plexyfin**
 - **GitHub:** https://github.com/shadowninja108/Plexyfin
 - **Purpose:** Sync artwork and collections from Plex to Jellyfin
@@ -686,12 +811,13 @@ These plugins don't have hosted manifest files and require manual installation v
 
 ## 📊 Repository Statistics
 
-### **Repositories with Hosted Manifests:** 27
+### **Repositories with Hosted Manifests:** 30+ (including streaming plugins)
 ### **Manual Installation Plugins:** 24
-### **Total Plugins Documented:** 51+
+### **Total Plugins Documented:** 54+
 
 ### **Categories:**
 - 🎬 **Video Enhancement:** 6 plugins
+- 🌐 **Streaming/On-Demand:** 6 plugins
 - 📊 **Analytics & Reporting:** 3 plugins
 - 🔐 **Authentication:** 2 plugins
 - 🎵 **Music:** 3 plugins
@@ -728,11 +854,13 @@ For plugins requiring manual installation:
 ### **Compatibility**
 - Check each plugin's `targetAbi` version matches your Jellyfin version
 - Most plugins target Jellyfin 10.9.x or 10.10.x
+- Gelato requires Jellyfin 10.11+
 - Some older plugins may not work with latest Jellyfin
 
 ### **Stability**
 - Official plugins are most stable
 - Third-party plugins vary in quality and maintenance
+- Streaming plugins are experimental
 - Always backup before installing new plugins
 - Test plugins on non-production servers first
 
@@ -740,18 +868,27 @@ For plugins requiring manual installation:
 - Only install plugins from trusted sources
 - Review plugin permissions before installation
 - Be cautious with plugins requiring external services
+- Streaming plugins may expose your server to additional risks
+
+### **Legal Considerations**
+- Jellyfin is designed for locally-owned media
+- Streaming plugins should only be used with content you legally own
+- Torrenting copyrighted content without ownership is illegal
+- Consider using a VPN for privacy when using streaming features
+- You are responsible for your use of these plugins
 
 ### **Support**
 - For official plugins: Jellyfin forums and GitHub
 - For third-party plugins: Contact plugin developer on their GitHub
 - Check plugin's GitHub Issues page for known problems
+- Streaming plugins have limited community support
 
 ---
 
 ## 🔄 Keeping This List Updated
 
 This list is maintained at:
-**https://github.com/cjlong45/Ultimate-List-of-Jellyfin-Plugins**
+**https://github.com/cjlong45/Ultimate-List-of-Third-Party-Plugins**
 
 ### **Contributions Welcome!**
 - Found a new plugin repository? Submit a PR!
@@ -766,6 +903,7 @@ This list is maintained at:
 - **Awesome Jellyfin:** https://github.com/awesome-jellyfin/awesome-jellyfin
 - **Jellyfin Forum:** https://forum.jellyfin.org/
 - **Jellyfin Discord:** https://jellyfin.org/contact
+- **ElfHosted Gelato Guide:** https://docs.elfhosted.com/guides/media/jellyfin-gelato/
 
 ---
 
@@ -785,7 +923,7 @@ This list is provided as-is for informational purposes. Each plugin has its own 
 
 **Last Updated:** November 2024  
 **Maintained by:** cjlong45  
-**Total Repositories:** 27 hosted + 24 manual install
+**Total Repositories:** 30+ hosted + 24 manual install
 
 ---
 
@@ -798,7 +936,11 @@ If you're new to Jellyfin plugins, start with these essential repositories:
 3. ✅ **Danieladov's Collection** - Merge Versions + Theme Songs + Skin Manager
 4. ✅ **Official Repository** - Pre-configured, includes Fanart, TMDb, etc.
 
-These four repositories will give you access to the most popular and useful plugins!
+### For Advanced Users:
+5. ✅ **Gelato** - Stremio integration for on-demand streaming (requires setup)
+6. ✅ **ytdlp2STRM** - YouTube/Twitch streaming without downloads
+
+These repositories will give you access to the most popular and useful plugins!
 
 ---
 
